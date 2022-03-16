@@ -1,0 +1,113 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+
+}
+
+header{
+    background-image: url('joker.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+}
+header img{
+    width:100px;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.watchjoker{
+    width: 50%;
+    margin-top: 60px;
+}
+.watchjoker h1{
+    line-height: 2;
+}
+.watchjoker button{
+    padding: 16px 25px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.filmssection{
+    background-color: black;
+    color: white;
+}
+.filmssection a img{
+    width: 18%;
+}
+.thisissec1,.thisissec2,.thisissec3,.thisissec4,.thisissec5{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footeritems{
+    width: 80%;
+    margin: 0 auto;
+}
+.footerelements{
+    display: flex;
+    justify-content: space-between;
+}
+.footerelements div li a{
+    text-decoration: none;
+    color: rgb(134, 128, 128);
+}
+.footerelements div ul {
+    list-style: none;
+    line-height: 2.5;
+
+}
+.contactus p{
+    color: rgb(134, 128, 128);
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+@media (max-width:975px){
+
+    .footerelements li a{
+        font-size: 10px;
+    }
+    .thisissignupform {
+        font-size: 10px;
+    }
+    .thisissignupform button{
+        padding: 10px;
+    
+    }
+    .thisissignupform input{
+        padding: 10px;
+    }
+}
+
+@media (max-width:800px){
+    .watchjoker{
+        width: 100%;
+    }
+}
+@media (max-width:350px){
+    header a{
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+}

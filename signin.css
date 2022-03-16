@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+    
+        background-image: url('background_image.jpg');
+        height: 100vh;
+}
+header img{
+        width:100px;
+        margin-top: 16px;
+}
+.signinform{
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+}
+.signinform .homebuttona a{
+    color: white;
+    background-color: #e50914;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.homebuttona{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:0 auto;
+}
+
+.thisisform{
+    background-color: black;
+    height: 80vh;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+  align-items: center;
+   
+
+}
+.thisisform div{
+    width: 80%;
+    display: flex;
+    height: 50vh;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.thisisform input{
+    padding: 20px;
+    background-color: rgb(75, 72, 72);
+    border-radius: 5px;
+}
+
+.thisisform button{
+    padding: 20px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.thisisform p{
+    line-height: 2;
+    color: rgb(167, 158, 158);
+}
+#newtonetflixtext{
+    color: #d17b7f;
+}
+.thisisform a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footeritems{
+    width: 80%;
+    margin: 0 auto;
+}
+.footerelements{
+    display: flex;
+    justify-content: space-between;
+}
+.footerelements div li a{
+    text-decoration: none;
+    color: rgb(134, 128, 128);
+}
+.footerelements div ul {
+    list-style: none;
+    line-height: 2.5;
+
+}
+.contactus p{
+    color: rgb(134, 128, 128);
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width:975px){
+
+    .footerelements li a{
+        font-size: 10px;
+    }
+    .thisisform {
+        font-size: 10px;
+    }
+    .thisisform button{
+        padding: 10px;
+    
+    }
+    .thisisform input{
+        padding: 10px;
+    }
+}
+@media (max-width:800px){
+    
+.thisisform{
+    
+    height: 60vh;
+    width: 50%;
+    margin-top: 50px ;
+}
+}
+@media (max-width:400px){
+    .thisisform{
+            height: 60vh;
+            width: 60%;
+            margin-top: 50px ;
+    }
+}
